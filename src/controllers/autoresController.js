@@ -19,8 +19,6 @@ class AutoresController {
     
     const response = await autor.save()
 
-    console.log('Response ==> ',response)
-    
     res.json({message: 'foi'})
 }
     static atualizarAutor = async (req,res)=>{
